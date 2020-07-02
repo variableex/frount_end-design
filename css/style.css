@@ -285,6 +285,11 @@ label #cancle:hover {
     margin-bottom:50px ;
 }
 
+.sectionsdisplay section.bottom div {
+    margin: 10px 20px 10px 20px;
+    color: #fff;
+}
+
 .sectionsdisplay footer {
     width: 100%;
     background: rgba(0, 0, 0, .5);
@@ -327,6 +332,61 @@ label #cancle:hover {
 
 .sectionsdisplay footer .footerDisplay aside ul.contentfooter li:hover{
     color: #000;
+}
+
+blockquote p {
+    margin: 30px 30px 20px 50px;
+}
+
+blockquote p.quote {
+    font-style: italic;
+    font-size: 30px;
+    color: #fff;
+}
+
+section blockquote {
+    width: 40%;
+    margin-left: 700px;
+}
+
+section blockquote p.credit {
+    color: #fff;
+    margin-top: 0;
+    position: relative;
+    line-height: 20px;
+    padding-left: 20px;
+}
+
+section blockquote p.credit strong {
+    font-size: 25px;
+    color: #d2bd65;
+}
+
+section blockquote p.credit em {
+    font-size: 20px;
+    color: #d2bd65;
+}
+
+section blockquote::before {
+    content: '\201c';
+    color: #d2bd65;
+    position: absolute;
+    top: -60px;
+    left: 650px;
+    font-size: 5em;
+    font-family: serif;
+}
+
+section blockquote p.quote::after {
+    content: '\201d';
+    font-family: serif;
+}
+
+section blockquote p.credit::before {
+    content: '\2014';
+    position: absolute;
+    top: 0px;
+    left: -40px;
 }
 
 
