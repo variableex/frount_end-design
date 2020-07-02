@@ -13,6 +13,12 @@ body {
     margin: 0;
 }
 
+.copyRight {
+    color: #fff;
+    background-color: #000;
+    font-size: 20px;
+}
+
 a.btn-visit {
     font-size: 20px;
     text-decoration: none;
@@ -414,6 +420,7 @@ section blockquote p.credit::before {
         position: relative;
         top: 20px;
     }
+    
 
     #check:checked ~ .sectionsdisplay section {
         margin: 20px 10px 20px 10px;
@@ -507,6 +514,15 @@ section blockquote p.credit::before {
         font-size: 40px;
         position: relative;
         top: 20px;
+    }
+
+    section blockquote {
+        width: 50%;
+        margin-left: 500px;
+    }
+
+    section blockquote::before {
+        left: 450px;
     }
 
     #check:checked ~ .sectionsdisplay section {
@@ -614,6 +630,15 @@ section blockquote p.credit::before {
         top: 20px;
     }
 
+    section blockquote {
+        width: 50%;
+        margin-left: 300px;
+    }
+
+    section blockquote::before {
+        left: 250px;
+    }
+
     #check:checked ~ .sectionsdisplay section {
         margin: 20px 10px 20px 10px;
     }
@@ -659,6 +684,15 @@ section blockquote p.credit::before {
     .sectionsdisplay section.middle aside a {
         position: relative;
         top: -170px;
+    }
+
+    section blockquote {
+        width: 100%;
+        margin: 10px 20px 5px 50px;
+    }
+
+    section blockquote::before {
+        left: 0px;
     }
 
     /* #check:checked ~ .sectionsdisplay header {
